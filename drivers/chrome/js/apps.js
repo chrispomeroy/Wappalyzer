@@ -36,7 +36,7 @@
 		28: 'operating-systems',
 		29: 'search-engines',
 		30: 'web-mail',
-		31: 'Acquia Cloud'
+		31: 'hosts'
 	};
 
 	w.apps = {
