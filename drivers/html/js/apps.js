@@ -36,6 +36,7 @@
 		28: 'operating-systems',
 		29: 'search-engines',
 		30: 'web-mail'
+		31: 'hosts'
 	};
 
 	w.apps = {
@@ -471,6 +472,10 @@
 			headers: { 'X-Drupal-Cache': /.*/, 'X-Generator': /Drupal/, 'Expires': /19 Nov 1978/ },
 			env: /^Drupal$/,
 			implies: [ 'PHP' ]
+		},
+		'Acquia Cloud': {
+			cats: [ 31 ],
+			headers: { 'X-AH-Environment': /.*/ },
 		},
 		'Drupal Commerce': {
 			cats: [ 6 ],
